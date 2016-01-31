@@ -251,7 +251,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/sltecan/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/sltecan/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
-    vendor/samsung/sltecan/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
     vendor/samsung/sltecan/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/sltecan/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/sltecan/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+    vendor/samsung/sltecan/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
