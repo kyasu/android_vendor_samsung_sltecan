@@ -223,6 +223,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
@@ -236,6 +237,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/samsung/sltecan/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/sltecan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/sltecan/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
     vendor/samsung/sltecan/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/sltecan/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/sltecan/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
