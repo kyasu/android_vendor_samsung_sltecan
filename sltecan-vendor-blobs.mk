@@ -194,8 +194,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/sltecan/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/samsung/sltecan/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/samsung/sltecan/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/sltecan/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/sltecan/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/samsung/sltecan/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/sltecan/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
+    vendor/samsung/sltecan/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
