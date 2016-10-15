@@ -92,7 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/lib/G16QL_libchromatix_s5k2p2xx_vt_hd.so:system/lib/G16QL_libchromatix_s5k2p2xx_vt_hd.so \
     vendor/samsung/sltecan/proprietary/lib/G16QL_libchromatix_s5k2p2xx_zslshot.so:system/lib/G16QL_libchromatix_s5k2p2xx_zslshot.so \
     vendor/samsung/sltecan/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-    vendor/samsung/sltecan/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
     vendor/samsung/sltecan/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/sltecan/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/samsung/sltecan/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
@@ -142,6 +141,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
