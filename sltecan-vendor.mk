@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/sltecan/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/sltecan/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/sltecan/proprietary/bin/vcsFPService:system/bin/vcsFPService \
     vendor/samsung/sltecan/proprietary/cameradata/C16QL_Isp0_s5k2p2xx.bin:system/cameradata/C16QL_Isp0_s5k2p2xx.bin \
     vendor/samsung/sltecan/proprietary/cameradata/C16QL_Isp1_s5k2p2xx.bin:system/cameradata/C16QL_Isp1_s5k2p2xx.bin \
     vendor/samsung/sltecan/proprietary/cameradata/F16QL_Isp0_s5k2p2xx.bin:system/cameradata/F16QL_Isp0_s5k2p2xx.bin \
@@ -101,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
     vendor/samsung/sltecan/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
     vendor/samsung/sltecan/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-    vendor/samsung/sltecan/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
     vendor/samsung/sltecan/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/sltecan/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/samsung/sltecan/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
@@ -128,11 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/sltecan/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/sltecan/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/sltecan/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
-    vendor/samsung/sltecan/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
     vendor/samsung/sltecan/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-    vendor/samsung/sltecan/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
-    vendor/samsung/sltecan/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
     vendor/samsung/sltecan/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
     vendor/samsung/sltecan/proprietary/vendor/firmware/bcm4350_V0289.0544.hcd:system/vendor/firmware/bcm4350_V0289.0544.hcd \
     vendor/samsung/sltecan/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
