@@ -1,19 +1,14 @@
-# bcm94354wlcspMS_ES11_A1_7_10_82_11_11212013_mdfy_PAparam.txt -- 11/21/2013 by Murata, based on bcm94354wlcspMS_ES11_A1_7_10_82_11_11212013.txt, changed PA parameters, ccode.
-# bcm94354wlcspMS_ES11_A1_7_10_82_11_11212013.txt -- 11/20/2013 by Broadcom Corporation
-# Use with 7_10_82_11 -- Murata 1BB BCM4354 WLCSP 11AC Module ES1.1
-#BCM4354 WLCSP module for iPA, eLNA board with SDIO for production package
 NVRAMRev=$Rev: 373428 $
 sromrev=11
 boardrev=0x1101
-## boardtype is subject to change
-boardtype=0x06ed
+boardtype=0x070c
 boardflags=0x12401001
-#enable eLNA both 2G/5G
 boardflags2=0x00802000
-boardflags3=0x40000108
-#boardnum=57410 
+boardflags3=0x40000109
 macaddr=00:90:4c:16:70:01
-ccode=ALL
+#ccode modified by Murata
+#ccode=0
+ccode=US
 regrev=0
 antswitch=0
 pdgain5g=4
@@ -22,11 +17,8 @@ tworangetssi2g=0
 tworangetssi5g=0
 femctrl=10
 vendid=0x14e4
-#devid=0x43a3
-## for 4354a1
 devid=0x43df
 manfid=0x2d0
-#prodid=0x052e
 nocrc=1
 otpimagesize=502
 xtalfreq=37400
@@ -69,19 +61,18 @@ extpagain5g=2
 tempthresh=255
 tempoffset=255
 rawtempsense=0x1ff
-#PA parameters modified by Murata
-#pa2ga0=-147,6192,-705
-#pa2ga1=-161,6041,-701
-#pa5ga0=-194,6069,-739,-188,6137,-743,-185,5931,-725,-171,5898,-715
-#pa5ga1=-190,6248,-757,-190,6275,-759,-190,6225,-757,-184,6131,-746
-pa2ga0=65370,5892,64853
-pa2ga1=65359,5929,64834
-pa5ga0=65355,6018,64809,65361,5977,64816,65378,5812,64840,65392,5783,64855
-pa5ga1=65350,6036,64807,65359,6081,64807,65368,6008,64818,65371,6048,64819
-maxp2ga0=74
-maxp5ga0=74,74,74,74
-maxp2ga1=74
-maxp5ga1=74,74,74,74
+pa2ga0=65405,6046,64854
+pa2ga1=65408,6127,64843
+pa5ga0=65358,6053,64807,65354,6020,64808,65364,6040,64813,65359,5987,64817
+pa5ga1=65357,6084,64806,65356,6018,64810,65362,5936,64821,65368,5935,64828
+pa2ga0.fab.4=-161,5896,-688
+pa2ga1.fab.4=-161,6005,-702
+pa5ga0.fab.4=-181,6051,-727,-183,6055,-730,-177,6030,-722,-177,6049,-723
+pa5ga1.fab.4=-185,6080,-733,-180,6078,-729,-178,5928,-714,-174,5963,-713
+maxp2ga0=78
+maxp5ga0=78,78,78,78
+maxp2ga1=78
+maxp5ga1=78,78,78,78
 subband5gver=0x4
 pdoffsetcckma0=0x4
 pdoffsetcckma1=0x4
@@ -91,19 +82,18 @@ pdoffset40ma1=0x0000
 pdoffset80ma1=0x0000
 cckbw202gpo=0x0000
 cckbw20ul2gpo=0x0000
-mcsbw202gpo=0x99644422
-mcsbw402gpo=0x99644422
-dot11agofdmhrbw202gpo=0x6666
+mcsbw202gpo=0xaaa88882
+dot11agofdmhrbw202gpo=0x7762
 ofdmlrbw202gpo=0x0022
-mcsbw205glpo=0x88766663
-mcsbw405glpo=0x88666663
-mcsbw805glpo=0xbb666665
-mcsbw205gmpo=0xd8666663
-mcsbw405gmpo=0x88666663
-mcsbw805gmpo=0xcc666665
-mcsbw205ghpo=0xdc666663
-mcsbw405ghpo=0xaa666663
-mcsbw805ghpo=0xdd666665
+mcsbw205glpo=0xaaa99882
+mcsbw405glpo=0xcba99883
+mcsbw805glpo=0xdda99885
+mcsbw205gmpo=0xaaa99882
+mcsbw405gmpo=0xcba99883
+mcsbw805gmpo=0xdda99885
+mcsbw205ghpo=0xaaa99882
+mcsbw405ghpo=0xcba99883
+mcsbw805ghpo=0xdda99885
 mcslr5glpo=0x0000
 mcslr5gmpo=0x0000
 mcslr5ghpo=0x0000
@@ -123,22 +113,30 @@ sb20in80and160lr5ghpo=0x0
 sb40and80lr5ghpo=0x0
 dot11agduphrpo=0x0
 dot11agduplrpo=0x0
-phycal_tempdelta=255
+phycal_tempdelta=25
 temps_period=15
 temps_hysteresis=15
 AvVmid_c0=2,140,2,145,2,145,2,145,2,145
 AvVmid_c1=2,140,2,145,2,145,2,145,2,145
 rssicorrnorm_c0=4,4
 rssicorrnorm_c1=4,4
-rssicorrnorm5g_c0=1,2,3,1,2,3,6,6,8,6,6,8
-rssicorrnorm5g_c1=1,2,3,2,2,2,7,7,8,7,7,8
-## SWCTRLMAP using AN29223K and AN29222K
+rssicorrnorm5g_c0=4,6,6,4,6,6,3,5,6,4,6,6
+rssicorrnorm5g_c1=4,5,7,4,5,7,3,5,7,3,5,6
 swctrlmap_5g=0x02020202,0x05050404,0x04040000,0x000000,0x047
 swctrlmap_2g=0x10081008,0x28300820,0x08200000,0x803020,0x0ff
 ## muxenab to enable OOB signal - needed for final board
 muxenab=0x10
 #for BT-coexistence
 btc_mode=1
+cckdigfilttype=1
+paprdis=0
+epsdelta2g0=0
+epsdelta2g1=0
+rpcal2g=0x9
+rpcal5gb0=0x33
+rpcal5gb1=0x29
+rpcal5gb2=0x36
+rpcal5gb3=0x2E
 btc_params84=7000
 btc_params10=20000
 btc_params8=45000

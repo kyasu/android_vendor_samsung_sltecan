@@ -1,5 +1,5 @@
 #BCM4354WLCSP_A1 with iPA/eLNA for SEMCO SWB-B80 M3 module -- 02/04/2014
-#FW ver. :7.10.82.46 (7.26.5)
+#FW ver. :7.26.2
 
 NVRAMRev=$Rev: 373428 $
 sromrev=11
@@ -81,10 +81,10 @@ tempoffset=255
 rawtempsense=0x1ff
 
 ### 14.02.03 TSSI Cal_FW33_CS10_M3_TSMC
-pa2ga0= 0xff68,0x15c4,0xfd5a
-pa2ga1= 0xff3d,0x13fd,0xfd66
-pa5ga0= 0xff59,0x1724,0xfd24,0xff63,0x1741,0xfd2d,0xff57,0x1634,0xfd3c,0xff50,0x157a,0xfd47
-pa5ga1= 0xff2d,0x1529,0xfd3d,0xff37,0x15d7,0xfd2c,0xff45,0x162e,0xfd2c,0xff5a,0x1659,0xfd3d
+pa2ga0= 0xff68,0x16c4,0xfd5a
+pa2ga1= 0xff3d,0x14fd,0xfd66
+pa5ga0= 0xff59,0x1824,0xfd24,0xff63,0x1841,0xfd2d,0xff57,0x1734,0xfd3c,0xff50,0x167a,0xfd47
+pa5ga1= 0xff2d,0x1629,0xfd3d,0xff37,0x16d7,0xfd2c,0xff45,0x172e,0xfd2c,0xff5a,0x1759,0xfd3d
 
 ### 14.02.14 TSSI Cal_FW37_CS13_M3_UMC
 pa2ga0.fab.4= 0xff5c,0x15ff,0xfd6d
@@ -107,23 +107,23 @@ pdoffset80ma0=0x0000
 pdoffset40ma1=0x0000
 pdoffset80ma1=0x0000
 maxp2ga0=78
-maxp5ga0=74,74,74,74
+maxp5ga0=78,78,78,78
 maxp2ga1=78
-maxp5ga1=74,74,74,74
+maxp5ga1=78,78,78,78
 cckbw202gpo=0x0000
 cckbw20ul2gpo=0x0000
-mcsbw202gpo=0xAAAA6664
-dot11agofdmhrbw202gpo=0x8866
+mcsbw202gpo=0xCCAA8884
+dot11agofdmhrbw202gpo=0x8888
 ofdmlrbw202gpo=0x0022
-mcsbw205glpo=0x88866440
-mcsbw405glpo=0xAAA88884
-mcsbw805glpo=0xCCCAAAA6
-mcsbw205gmpo=0x88866440
-mcsbw405gmpo=0xAAA88884
-mcsbw805gmpo=0xCCCAAAA6
-mcsbw205ghpo=0x88866440
-mcsbw405ghpo=0xAAA88884
-mcsbw805ghpo=0xCCCAAAA6
+mcsbw205glpo=0xAAA88882
+mcsbw405glpo=0xCCCAAAA4
+mcsbw805glpo=0xEEEAAAAA6
+mcsbw205gmpo=0xAAA88882
+mcsbw405gmpo=0xCCCAAAA4
+mcsbw805gmpo=0xEEEAAAAA6
+mcsbw205ghpo=0xAAA88882
+mcsbw405ghpo=0xCCCAAAA4
+mcsbw805ghpo=0xEEEAAAAA6
 mcslr5glpo=0x0000
 mcslr5gmpo=0x0000
 mcslr5ghpo=0x0000
@@ -156,14 +156,11 @@ btc_mode=1
 btc_params84=7000
 btc_params10=20000
 btc_params8=45000
-cckdigfilttype=2
+#cckdigfilttype=1
 ## muxenab to enable OOB signal - needed for final board
 muxenab=0x10
 #ltecxmux=0x534201
 epsdelta2g0=0
 epsdelta2g1=0
 #ofdmfilttype=1
-#dynamicsarctrl_2g_0x0
-#dynamicsarctrl_5g_0x0
-#papdwar=4
 
