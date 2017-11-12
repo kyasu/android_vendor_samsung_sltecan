@@ -101,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/lib/G16QL_libchromatix_s5k2p2xx_vt_hd.so:system/lib/G16QL_libchromatix_s5k2p2xx_vt_hd.so \
     vendor/samsung/sltecan/proprietary/lib/G16QL_libchromatix_s5k2p2xx_zslshot.so:system/lib/G16QL_libchromatix_s5k2p2xx_zslshot.so \
     vendor/samsung/sltecan/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-    vendor/samsung/sltecan/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/sltecan/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/samsung/sltecan/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
     vendor/samsung/sltecan/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
@@ -109,12 +108,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
     vendor/samsung/sltecan/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
     vendor/samsung/sltecan/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-    vendor/samsung/sltecan/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/sltecan/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/samsung/sltecan/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
     vendor/samsung/sltecan/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/sltecan/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/samsung/sltecan/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/samsung/sltecan/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/samsung/sltecan/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/samsung/sltecan/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/samsung/sltecan/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
@@ -206,6 +203,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
