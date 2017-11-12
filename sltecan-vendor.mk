@@ -22,13 +22,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/bin/ks:system/bin/ks \
     vendor/samsung/sltecan/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/sltecan/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/samsung/sltecan/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/sltecan/proprietary/bin/qcks:system/bin/qcks \
     vendor/samsung/sltecan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/sltecan/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/sltecan/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/sltecan/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/samsung/sltecan/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/sltecan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/sltecan/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/sltecan/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -125,14 +123,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
     vendor/samsung/sltecan/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     vendor/samsung/sltecan/proprietary/lib/libperipheral_client.so:system/lib/libperipheral_client.so \
-    vendor/samsung/sltecan/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
     vendor/samsung/sltecan/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/sltecan/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
-    vendor/samsung/sltecan/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/sltecan/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/sltecan/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/sltecan/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/sltecan/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/sltecan/proprietary/lib/libvdis.so:system/lib/libvdis.so \
     vendor/samsung/sltecan/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
     vendor/samsung/sltecan/proprietary/vendor/firmware/bcm4350_V0289.0544.hcd:system/vendor/firmware/bcm4350_V0289.0544.hcd \
