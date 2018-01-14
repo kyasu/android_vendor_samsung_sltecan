@@ -93,7 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/lib/G16QL_libchromatix_s5k2p2xx_vt_hd.so:system/lib/G16QL_libchromatix_s5k2p2xx_vt_hd.so \
     vendor/samsung/sltecan/proprietary/lib/G16QL_libchromatix_s5k2p2xx_zslshot.so:system/lib/G16QL_libchromatix_s5k2p2xx_zslshot.so \
     vendor/samsung/sltecan/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-    vendor/samsung/sltecan/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/hw/sensors.vendor.msm8974.so:system/vendor/lib/hw/sensors.vendor.msm8974.so \
     vendor/samsung/sltecan/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
     vendor/samsung/sltecan/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
     vendor/samsung/sltecan/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
