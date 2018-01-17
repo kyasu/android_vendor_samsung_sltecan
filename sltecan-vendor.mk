@@ -1,5 +1,5 @@
 # Copyright (C) 2015-2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/sltecan/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/sltecan/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+    vendor/samsung/sltecan/proprietary/etc/G16QL_s5k2p2xx_module_info.xml:system/etc/G16QL_s5k2p2xx_module_info.xml \
     vendor/samsung/sltecan/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/sltecan/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
     vendor/samsung/sltecan/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
