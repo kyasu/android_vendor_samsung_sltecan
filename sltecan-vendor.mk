@@ -103,8 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/sltecan/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/samsung/sltecan/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/sltecan/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/sltecan/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/samsung/sltecan/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/samsung/sltecan/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/samsung/sltecan/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
@@ -196,6 +194,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
