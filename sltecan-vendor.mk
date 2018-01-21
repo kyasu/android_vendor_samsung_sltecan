@@ -115,6 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/lib/libmmqjpeg_codec.so:system/lib/libmmqjpeg_codec.so \
     vendor/samsung/sltecan/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
     vendor/samsung/sltecan/proprietary/lib/libmysound.so:system/lib/libmysound.so \
+    vendor/samsung/sltecan/proprietary/lib/libperipheral_client.so:system/lib/libperipheral_client.so \
     vendor/samsung/sltecan/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/sltecan/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
@@ -168,6 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -197,6 +199,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
