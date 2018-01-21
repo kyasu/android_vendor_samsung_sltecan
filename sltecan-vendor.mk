@@ -30,19 +30,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/sltecan/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/sltecan/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/sltecan/proprietary/cameradata/C16QL_Isp0_s5k2p2xx.bin:system/cameradata/C16QL_Isp0_s5k2p2xx.bin \
-    vendor/samsung/sltecan/proprietary/cameradata/C16QL_Isp1_s5k2p2xx.bin:system/cameradata/C16QL_Isp1_s5k2p2xx.bin \
-    vendor/samsung/sltecan/proprietary/cameradata/F16QL_Isp0_s5k2p2xx.bin:system/cameradata/F16QL_Isp0_s5k2p2xx.bin \
-    vendor/samsung/sltecan/proprietary/cameradata/F16QL_Isp1_s5k2p2xx.bin:system/cameradata/F16QL_Isp1_s5k2p2xx.bin \
-    vendor/samsung/sltecan/proprietary/cameradata/F16QS_Isp0_imx240.bin:system/cameradata/F16QS_Isp0_imx240.bin \
-    vendor/samsung/sltecan/proprietary/cameradata/F16QS_Isp1_imx240.bin:system/cameradata/F16QS_Isp1_imx240.bin \
-    vendor/samsung/sltecan/proprietary/cameradata/G16QL_Isp0_s5k2p2xx.bin:system/cameradata/G16QL_Isp0_s5k2p2xx.bin \
-    vendor/samsung/sltecan/proprietary/cameradata/G16QL_Isp1_s5k2p2xx.bin:system/cameradata/G16QL_Isp1_s5k2p2xx.bin \
-    vendor/samsung/sltecan/proprietary/cameradata/Master0.bin:system/cameradata/Master0.bin \
-    vendor/samsung/sltecan/proprietary/cameradata/Master1.bin:system/cameradata/Master1.bin \
-    vendor/samsung/sltecan/proprietary/cameradata/cal_data_LSCmaster.bin:system/cameradata/cal_data_LSCmaster.bin \
-    vendor/samsung/sltecan/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/sltecan/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+    vendor/samsung/sltecan/proprietary/vendor/cameradata/C16QL_Isp0_s5k2p2xx.bin:system/vendor/cameradata/C16QL_Isp0_s5k2p2xx.bin \
+    vendor/samsung/sltecan/proprietary/vendor/cameradata/C16QL_Isp1_s5k2p2xx.bin:system/vendor/cameradata/C16QL_Isp1_s5k2p2xx.bin \
+    vendor/samsung/sltecan/proprietary/vendor/cameradata/F16QL_Isp0_s5k2p2xx.bin:system/vendor/cameradata/F16QL_Isp0_s5k2p2xx.bin \
+    vendor/samsung/sltecan/proprietary/vendor/cameradata/F16QL_Isp1_s5k2p2xx.bin:system/vendor/cameradata/F16QL_Isp1_s5k2p2xx.bin \
+    vendor/samsung/sltecan/proprietary/vendor/cameradata/F16QS_Isp0_imx240.bin:system/vendor/cameradata/F16QS_Isp0_imx240.bin \
+    vendor/samsung/sltecan/proprietary/vendor/cameradata/F16QS_Isp1_imx240.bin:system/vendor/cameradata/F16QS_Isp1_imx240.bin \
+    vendor/samsung/sltecan/proprietary/vendor/cameradata/G16QL_Isp0_s5k2p2xx.bin:system/vendor/cameradata/G16QL_Isp0_s5k2p2xx.bin \
+    vendor/samsung/sltecan/proprietary/vendor/cameradata/G16QL_Isp1_s5k2p2xx.bin:system/vendor/cameradata/G16QL_Isp1_s5k2p2xx.bin \
+    vendor/samsung/sltecan/proprietary/vendor/cameradata/Master0.bin:system/vendor/cameradata/Master0.bin \
+    vendor/samsung/sltecan/proprietary/vendor/cameradata/Master1.bin:system/vendor/cameradata/Master1.bin \
+    vendor/samsung/sltecan/proprietary/vendor/cameradata/cal_data_LSCmaster.bin:system/vendor/cameradata/cal_data_LSCmaster.bin \
+    vendor/samsung/sltecan/proprietary/vendor/cameradata/datapattern_420sp.yuv:system/vendor/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/sltecan/proprietary/vendor/cameradata/datapattern_front_420sp.yuv:system/vendor/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/sltecan/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/sltecan/proprietary/etc/G16QL_s5k2p2xx_module_info.xml:system/etc/G16QL_s5k2p2xx_module_info.xml \
     vendor/samsung/sltecan/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
