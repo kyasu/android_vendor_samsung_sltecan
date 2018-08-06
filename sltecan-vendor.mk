@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/samsung/sltecan/proprietary/vendor/bin/ks:system/vendor/bin/ks \
     vendor/samsung/sltecan/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/samsung/sltecan/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/samsung/sltecan/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
     vendor/samsung/sltecan/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/sltecan/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
@@ -119,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libvdis.so:system/vendor/lib/libvdis.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
+    vendor/samsung/sltecan/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/samsung/sltecan/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/samsung/sltecan/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/samsung/sltecan/proprietary/vendor/firmware/bcm4350_V0289.0544.hcd:system/vendor/firmware/bcm4350_V0289.0544.hcd \
