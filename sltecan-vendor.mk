@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/bin/ks:system/vendor/bin/ks \
     vendor/samsung/sltecan/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/samsung/sltecan/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
+    vendor/samsung/sltecan/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/sltecan/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/samsung/sltecan/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/samsung/sltecan/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access \
@@ -111,13 +112,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libmplmpu.so:system/vendor/lib/libmplmpu.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libvdis.so:system/vendor/lib/libvdis.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
     vendor/samsung/sltecan/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
-    vendor/samsung/sltecan/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
-    vendor/samsung/sltecan/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/sltecan/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/samsung/sltecan/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/samsung/sltecan/proprietary/vendor/firmware/bcm4350_V0289.0544.hcd:system/vendor/firmware/bcm4350_V0289.0544.hcd \
@@ -219,10 +220,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
@@ -231,7 +230,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -241,10 +239,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
