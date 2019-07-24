@@ -122,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/samsung/sltecan/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/samsung/sltecan/proprietary/vendor/firmware/bcm4350_V0289.0544.hcd:system/vendor/firmware/bcm4350_V0289.0544.hcd \
-    vendor/samsung/sltecan/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/G16QL_libchromatix_s5k2p2xx_common.so:system/vendor/lib/G16QL_libchromatix_s5k2p2xx_common.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/G16QL_libchromatix_s5k2p2xx_common_res0.so:system/vendor/lib/G16QL_libchromatix_s5k2p2xx_common_res0.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/G16QL_libchromatix_s5k2p2xx_common_res1.so:system/vendor/lib/G16QL_libchromatix_s5k2p2xx_common_res1.so \
