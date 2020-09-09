@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/bin/rfs_access:$(TARGET_COPY_OUT_VENDOR)/bin/rfs_access \
     vendor/samsung/sltecan/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/samsung/sltecan/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
-    vendor/samsung/sltecan/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/samsung/sltecan/proprietary/vendor/cameradata/C16QL_Isp0_s5k2p2xx.bin:$(TARGET_COPY_OUT_VENDOR)/cameradata/C16QL_Isp0_s5k2p2xx.bin \
     vendor/samsung/sltecan/proprietary/vendor/cameradata/C16QL_Isp1_s5k2p2xx.bin:$(TARGET_COPY_OUT_VENDOR)/cameradata/C16QL_Isp1_s5k2p2xx.bin \
     vendor/samsung/sltecan/proprietary/vendor/cameradata/F16QL_Isp0_s5k2p2xx.bin:$(TARGET_COPY_OUT_VENDOR)/cameradata/F16QL_Isp0_s5k2p2xx.bin \
@@ -148,7 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libSHIMDivxDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSHIMDivxDrm.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTimeService.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbmapper.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
@@ -256,6 +254,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
-    libmm-abl \
-    libtime_genoff \
-    TimeService
+    libmm-abl
