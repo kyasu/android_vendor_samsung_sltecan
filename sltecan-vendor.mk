@@ -216,6 +216,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libmmcamera_imx240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx240.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libmmcamera_s5k2p2xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2p2xx.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libmmcamera_s5k8b1yx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k8b1yx.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/liboemcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcamera.so \
@@ -242,6 +243,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalioctl.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libadsp_fd_skel.so \
